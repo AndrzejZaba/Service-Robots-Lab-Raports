@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="turtlesim" type="turtlesim_node" name="zolw_1">
+	</node>
+	<node pkg="turtlesim" type="turtlesim_node" name="zolw_2">
+	</node>
+	<node pkg="turtlesim" type="turtle_teleop_key" name="kontroler" 
+output="screen">
+	</node>
+</launch>
